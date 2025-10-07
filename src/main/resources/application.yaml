@@ -1,0 +1,4 @@
+quarkus:
+  application:
+    name: finance-manager-api
+    version: 0.0.1

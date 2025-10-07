@@ -1,0 +1,6 @@
+quarkus:
+  log:
+    level: INFO
+  datasource:
+    devservices:
+      service-name: finance-manager-db-dev

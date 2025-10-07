@@ -1,0 +1,11 @@
+quarkus:
+  log:
+    level: WARN
+  http:
+    port: 8080
+  datasource:
+    db-kind: postgresql
+    username: finance_user_prod
+    password: "${DB_PROD_PASSWORD}"
+    jdbc:
+      url: jdbc:postgresql://seu_host_prod:5432/finance_manager_db
