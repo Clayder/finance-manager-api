@@ -1,7 +1,7 @@
 package br.com.clayder
 
-import io.quarkus.hibernate.orm.panache.kotlin.PanacheEntity
 import io.quarkus.hibernate.orm.panache.kotlin.PanacheCompanion
+import io.quarkus.hibernate.orm.panache.kotlin.PanacheEntity
 import jakarta.persistence.Entity
 
 /**
@@ -25,8 +25,8 @@ import jakarta.persistence.Entity
  * }
  */
 @Entity
-class MyKotlinEntity: PanacheEntity() {
-    companion object: PanacheCompanion<MyKotlinEntity> {
+class MyKotlinEntity : PanacheEntity() {
+    companion object : PanacheCompanion<MyKotlinEntity> {
         fun byName(name: String) = list("name", name)
     }
 

@@ -10,4 +10,4 @@ pluginManagement {
         id(quarkusPluginId) version quarkusPluginVersion
     }
 }
-rootProject.name="finance-manager-api"
+rootProject.name = "finance-manager-api"
