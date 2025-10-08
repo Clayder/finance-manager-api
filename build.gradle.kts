@@ -2,6 +2,7 @@ plugins {
     kotlin("jvm") version "2.2.20"
     kotlin("plugin.allopen") version "2.2.20"
     id("io.quarkus")
+    id("org.jlleitschuh.gradle.ktlint") version "13.1.0"
 }
 
 repositories {
